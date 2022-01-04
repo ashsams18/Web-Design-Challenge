@@ -17,8 +17,8 @@ h1 {
   padding: 20px 0;
   margin: 0;
   margin-bottom: 20px;
-  font-size: 28px;
-  color: rgba(98, 221, 160, 0.5);
+  font-size: 20px;
+  color: rgba(21, 99, 6, 0.5);
   text-align: left;
 }
 
@@ -76,7 +76,7 @@ img {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 5px; /* Some padding */
-    width: 1000px; /* Set a small width */
+    width: 900px; /* Set a small width */
   }
   
   /* Add a hover effect (blue shadow) */
