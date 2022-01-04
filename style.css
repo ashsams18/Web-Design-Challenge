@@ -1,0 +1,77 @@
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: rgb(153, 168, 160);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: rgba(98, 221, 160, 0.5);
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+/* Selecting elements by class */
+.main {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.main-bio {
+  width: 70%;
+  float: left;
+}
+
+.contact-info {
+  width: 30%;
+  float: left;
+}
+
+.bio-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+
+.navbar-brand
+{
+  font-size: 50px;
+  color: rgba(83, 158, 121, 0.5);
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 250px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
